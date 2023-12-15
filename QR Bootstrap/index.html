@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Site</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom styles -->
+    <style>
+        :root {
+
+          --light-gray: hsl(212, 45%, 89%);
+          --gray-blue: hsl(220, 15%, 55%);
+          --dark-blue: hsl(218, 44%, 22%);
+    
+          --ff-main: 'Outfit', sans-serif;
+    
+          --fs-main: 0.9375rem;
+    
+        }
+
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+
+  </head>
+
+  <body style="font-family: var(--ff-main); font-size:var(--fs-main); background-color: var(--light-gray);">
+
+    <div class="container mx-auto">
+      <div class="row">
+        <div class="col-4 mx-auto">
+          <!-- begin card -->
+          <div class="card border shadow-lg  mt-5 p-3 text-center" style="border-radius:20px">
+
+            <div class="img-wrapper" style="border-radius: 20px; overflow: hidden;">
+              <img
+                class="img-fluid card-image-top"
+                src="images/image-qr-code.png"
+                alt="QR code to frontend mentor website"
+                style="display: block;  width: 100%;"
+                />
+            </div>
+
+              <h1 class="card-title h2" style="color:var(--dark-blue)">Improve your front-end skills by building projects</h1>
+              <p class="card-body" style="color: var(--gray-blue); opacity:0.8">
+                Scan the QR code to visit Frontend Mentor and take your coding
+                skills to the next level
+              </p>
+          </div>
+          <!-- end card -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
