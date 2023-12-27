@@ -75,7 +75,7 @@ body {
 
 .card-title a:hover {
   color: var(--yellow);
-  cursor: url("./images/hand-pointer-solid.svg"), pointer;
+  cursor: url(".assets/images/hand-pointer-solid.svg"), pointer;
   box-shadow: 16px 16px 0px 0px #000;
 }
 
