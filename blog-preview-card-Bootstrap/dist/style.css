@@ -75,7 +75,8 @@ body {
 
 .card-title a:hover {
   color: var(--yellow);
-  cursor: url(/assets/images/icons8-cursor-32png.png);
+  cursor: url("./images/hand-pointer-solid.svg"), pointer;
+  box-shadow: 16px 16px 0px 0px #000;
 }
 
 .card-text {
